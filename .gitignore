@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 export/
+
+# Jupyter Notebook
+.ipynb_checkpoints
