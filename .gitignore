@@ -12,3 +12,6 @@ export/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+.virtual_documents
+
+.claude

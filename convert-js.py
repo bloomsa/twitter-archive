@@ -6,8 +6,10 @@ import os
 from pathlib import Path
 
 data_path = "/Users/sambloomquist/projects/twitter-archive/export/data"
+script_dir = Path(__file__).parent
+data_path = script_dir / "export/data"
 
-json_path = f"{data_path}/json"
+json_path = data_path / "json"
 
 for js_file in Path(data_path).glob("*.js"):
     with open(js_file, "r") as file:
